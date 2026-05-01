@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Карта сайта
+Sitemap: https://kunio13.github.io/alter-ego/sitemap.xml
+
+# Запрещаем индексировать служебные папки (если есть)
+Disallow: /js/
+Disallow: /fonts/
+Disallow: /css/
+Disallow: /js/
+
+# Для Googlebot (необязательно)
+User-agent: Googlebot
+Allow: /

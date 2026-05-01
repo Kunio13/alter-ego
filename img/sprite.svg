@@ -1,0 +1,43 @@
+<svg>
+	<symbol id="search2" viewBox="0 0 18 19" xmlns="http://www.w3.org/2000/svg">
+		<path
+			d="M18.0017 16.9997L12.8477 11.8457C13.8005 10.3976 14.1821 8.6475 13.9187 6.93418C13.6552 5.22086 12.7654 3.66623 11.4216 2.57129C10.0777 1.47635 8.37537 0.918983 6.64416 1.0071C4.91294 1.09523 3.276 1.82257 2.05026 3.04831C0.82452 4.27404 0.0971789 5.91099 0.00905735 7.6422C-0.0790643 9.37342 0.478302 11.0758 1.57324 12.4196C2.66819 13.7635 4.22281 14.6533 5.93613 14.9167C7.64945 15.1802 9.39959 14.7986 10.8477 13.8457L16.0017 18.9997L18.0017 16.9997ZM2.00169 7.99973C2.00169 5.24273 4.24469 2.99973 7.00169 2.99973C9.75869 2.99973 12.0017 5.24273 12.0017 7.99973C12.0017 10.7567 9.75869 12.9997 7.00169 12.9997C4.24469 12.9997 2.00169 10.7567 2.00169 7.99973Z" />
+	</symbol>
+	<symbol id="close-cross" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path
+			d="M1.31371 1.31324L12.6274 12.627M23.9411 23.9407L12.6274 12.627M12.6274 12.627L23.9411 1.31324M12.6274 12.627L1.31371 23.9407"
+			stroke-width="3" />
+	</symbol>
+	<symbol id="theme" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+		<path stroke-linejoin="round" stroke-width="1.5"
+			d="M11.578 3.512a6.307 6.307 0 0 0 8.91 8.91a.45.45 0 0 1 .466-.095c.176.067.29.24.275.428A9.255 9.255 0 1 1 5.461 5.45a9.22 9.22 0 0 1 5.784-2.68a.42.42 0 0 1 .428.275c.06.16.02.34-.095.466Z" />
+	</symbol>
+	<symbol id="minus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 12h16.5" />
+	</symbol>
+	<symbol id="plus" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h8m0 0h8m-8 0V4m0 8v8" />
+	</symbol>
+	<symbol id="reset" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+			d="M7.915 18.532A7.83 7.83 0 0 1 11.831 3.92h1.043m-1.755-2.17l1.462 1.462a1 1 0 0 1 .293.708m-1.755 2.169l1.462-1.462a1 1 0 0 0 .293-.707m3.211 1.299a7.83 7.83 0 0 1-3.916 14.612h-1.043M12.881 22l-1.462-1.462a1 1 0 0 1-.293-.707m1.755-2.17l-1.462 1.462a1 1 0 0 0-.293.708" />
+	</symbol>
+	<symbol id="arrow-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+		<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+			d="M12 20V4.121M5.25 10.25l5.69-5.69A1.5 1.5 0 0 1 12 4.121m6.75 6.129l-5.69-5.69A1.5 1.5 0 0 0 12 4.122" />
+	</symbol>
+	<symbol id="scroll-up" fill="none" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+		<rect x="1" y="1" width="48" height="48" rx="19" stroke="#04043b" stroke-width="2" />
+		<g clip-path="url(#bhclip0_57_2672)">
+			<path d="M14.805 37.972l18.06-18.06-7.881-7.881-18.06 18.06 7.88 7.881z" fill="#2156A9" />
+			<path d="M38.669 25.683l4.408 4.409-7.881 7.88L17.13 19.908l7.88-7.88 9.295 9.294 4.363 4.362z"
+				fill="#1D3253" />
+			<path d="M24.996 27.776l-1.499 1.497-7.884-7.87 1.51-1.506 7.883 7.87" fill="#1B4484" />
+		</g>
+		<defs>
+			<clipPath id="bhclip0_57_2672">
+				<path fill="#fff" transform="translate(6.923 6.923)" d="M0 0h36.154v36.154H0z" />
+			</clipPath>
+		</defs>
+	</symbol>
+</svg>

@@ -1,0 +1,23 @@
+{
+	"name":"Alter Ego",
+	"short_name":"Alter Ego",
+	"lang": "ru-RU",
+	"start_url": "/",
+	"scope": "/",
+	"display": "standalone",
+	"orientation": "portrait",
+	"theme_color": "#ffd277",
+	"background_color": "#000000",
+	"description": "Сайт прозы.",
+	"icons":[
+		{
+			"src":"img/favicon/web-app-manifest-192x192.png",
+			"sizes":"192x192",
+			"type":"image/png"
+		},
+		{"src":"img/favicon/web-app-manifest-512x512.png",
+		"sizes":"512x512",
+		"type":"image/png"
+		}
+	]
+}
