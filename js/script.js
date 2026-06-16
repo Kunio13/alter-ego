@@ -351,6 +351,16 @@ function initGoalClicks(metricId) {
 			}
 		});
 	});
+
+	document.querySelectorAll('audio[data-goal]').forEach(function(audio) {
+		audio.addEventListener('play', function() {
+			const goal = this.dataset.goal;
+			if (goal && typeof ym === 'function') {
+					ym(109881457, 'reachGoal', goal);
+					console.log('Отправлена цель при запуске аудио:', goal);
+			}
+		});
+	});
 }
 
 document.addEventListener('DOMContentLoaded', function() {
