@@ -338,3 +338,20 @@ class UpButton {
 }
 
 new UpButton();
+
+function initGoalClicks(metricId) {
+	const elements = document.querySelectorAll('[data-goal]');
+	elements.forEach(el => {
+		el.addEventListener('click', function(evt) {
+			const goalName = this.dataset.goal;
+			if (typeof ym === 'function') {
+					ym(metricId, 'reachGoal', goalName);
+			} else {
+			}
+		});
+	});
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+   initGoalClicks(109881457);
+});
