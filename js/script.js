@@ -346,7 +346,6 @@ function initGoalClicks(metricId) {
 			const goalName = this.dataset.goal;
 			if (typeof ym === 'function') {
 					ym(metricId, 'reachGoal', goalName);
-				console.log(`Отправлена цель: ${goalName}`);
 			} else {
 			}
 		});
@@ -357,7 +356,6 @@ function initGoalClicks(metricId) {
 			const goal = this.dataset.goal;
 			if (goal && typeof ym === 'function') {
 					ym(109881457, 'reachGoal', goal);
-					console.log('Отправлена цель при запуске аудио:', goal);
 			}
 		});
 	});
