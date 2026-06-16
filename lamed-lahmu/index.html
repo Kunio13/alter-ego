@@ -8,16 +8,20 @@
           script-src 'self'
 	  				 'unsafe-inline'
 	  				https://www.googletagmanager.com
-	  				https://mc.yandex.*
+	  				https://mc.yandex.ru
 					https://yastatic.net;
           connect-src 'self'
                      https://kun.goatcounter.com/count
                      https://*.google-analytics.com
                      https://*.analytics.google.com
-	  				 https://mc.yandex.*;
-          img-src 'self' data: https://*.google-analytics.com https://*.analytics.google.com https://mc.yandex.*;
+	  				 https://mc.yandex.ru;
+          img-src 'self' data: 
+	  				 https://*.google-analytics.com 
+	  				 https://*.analytics.google.com 
+	  				 https://mc.yandex.ru;
           style-src 'self' 'unsafe-inline';
 	  	  font-src 'self';
+          frame-src https://mc.yandex.ru;
       ">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="В шумерских хрониках он упоминался как 1-ое порождение Тиамат, Лах(а)му">
