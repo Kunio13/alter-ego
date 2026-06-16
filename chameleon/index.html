@@ -6,15 +6,27 @@
       content="
           default-src 'self';
           script-src 'self'
-	  				 'unsafe-inline'
-	  				https://www.googletagmanager.com;
+	  				'nonce-abc1221jhgg3'
+	  				https://www.googletagmanager.com
+	  				https://mc.yandex.ru
+					https://yastatic.net;
           connect-src 'self'
                      https://kun.goatcounter.com/count
                      https://*.google-analytics.com
-                     https://*.analytics.google.com;
-          img-src 'self' data: https://*.google-analytics.com https://*.analytics.google.com;
+                     https://*.analytics.google.com
+	  				 https://mc.yandex.ru
+	  				 wss://mc.yandex.ru;
+          img-src 'self' data: 
+	  				 https://*.google-analytics.com 
+	  				 https://*.analytics.google.com 
+	  				 https://mc.yandex.ru;
           style-src 'self' 'unsafe-inline';
 	  	  font-src 'self';
+          frame-src https://mc.yandex.ru
+                    https://mc.yandex.md
+                    https://mc.yandex.by
+                    https://mc.yandex.kz
+                    https://mc.yandex.ua;
       ">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Он убивал. Впервые так убивал">
@@ -55,7 +67,7 @@
     <link rel="canonical" href="https://kunio13.github.io/alter-ego/chameleon/">  
   	
   <!-- 1. WebSite — общая информация о сайте -->
-	<script type="application/ld+json">
+	<script type="application/ld+json" nonce="abc1221jhgg3">
 		{
 			"@context": "https://schema.org",
 			"@type": "WebSite",
@@ -73,8 +85,8 @@
 			}
 		}
 	</script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-J41EZ7NN1M"></script>
-	<script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-J41EZ7NN1M" nonce="abc1221jhgg3"></script>
+	<script nonce="abc1221jhgg3">
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
@@ -83,7 +95,17 @@
 		    'page_path': location.pathname + location.hash
 	  });
 	</script>
-	<script data-goatcounter="https://kun.goatcounter.com/count" async src="../count.js"></script>
+	<script data-goatcounter="https://kun.goatcounter.com/count" async src="../count.js" nonce="abc1221jhgg3"></script>
+	<script type="text/javascript" nonce="abc1221jhgg3">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=109881457', 'ym');
+
+    ym(109881457, 'init', {ssr:true, clickmap:true, referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -180,7 +202,7 @@
 			<div class="text__content flex-fl_column" data-text-content>	
 				<ul class="text__chapters-list flex-fl_column-fl_center">
 					<li id="chapter1" class="text__chapter-item flex-fl_column">
-						<div class="text__chapter-head text__chapter-head--active flex-fl_cross-cnt-fl_between" aria-label="Свернуть главу" role="button" data-chapter-btn>
+						<div data-goal="click_chameleon_chapter1" class="text__chapter-head text__chapter-head--active flex-fl_cross-cnt-fl_between" aria-label="Свернуть главу" role="button" data-chapter-btn>
 							<h2 class="text__chapter-title">Глава 1. Отрицание Зверя</h2>
 							<div class="text__chapter-plus">
 								<svg class="text__chapter-svg">
@@ -356,7 +378,7 @@
 						</div>
 					</li>
 					<li id="chapter2" class="text__chapter-item flex-fl_column">
-						<div class="text__chapter-head text__chapter-head--active flex-fl_cross-cnt-fl_between" aria-label="Свернуть главу" role="button" data-chapter-btn>
+						<div data-goal="click_chameleon_chapter2" class="text__chapter-head text__chapter-head--active flex-fl_cross-cnt-fl_between" aria-label="Свернуть главу" role="button" data-chapter-btn>
 							<h2 class="text__chapter-title">Глава 2. Хамелеон</h2>
 							<div class="text__chapter-plus">
 								<svg class="text__chapter-svg">
@@ -446,6 +468,6 @@
 	</span>
 </div>
   </div> 
-  <script src="../js/script.js" defer></script>
+  <script src="../js/script.js" defer nonce="abc1221jhgg3"></script>
 </body>
 </html>
