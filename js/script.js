@@ -346,6 +346,7 @@ function initGoalClicks(metricId) {
 			const goalName = this.dataset.goal;
 			if (typeof ym === 'function') {
 					ym(metricId, 'reachGoal', goalName);
+				console.log(`Отправлена цель: ${goalName}`);
 			} else {
 			}
 		});
