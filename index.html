@@ -6,7 +6,7 @@
       content="
           default-src 'self';
           script-src 'self'
-	  				 'unsafe-inline'
+	  				'nonce-abc1221jhgg3'
 	  				https://www.googletagmanager.com
 	  				https://mc.yandex.ru
 					https://yastatic.net;
@@ -14,14 +14,19 @@
                      https://kun.goatcounter.com/count
                      https://*.google-analytics.com
                      https://*.analytics.google.com
-	  				 https://mc.yandex.ru;
+	  				 https://mc.yandex.ru
+	  				 wss://mc.yandex.ru;
           img-src 'self' data: 
 	  				 https://*.google-analytics.com 
 	  				 https://*.analytics.google.com 
 	  				 https://mc.yandex.ru;
           style-src 'self' 'unsafe-inline';
 	  	  font-src 'self';
-          frame-src https://mc.yandex.ru;
+          frame-src https://mc.yandex.ru
+                    https://mc.yandex.md
+                    https://mc.yandex.by
+                    https://mc.yandex.kz
+                    https://mc.yandex.ua;
       ">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Alter Ego — сайт прозы">
@@ -55,7 +60,7 @@
     <link rel="preload" as="image" href="./img/main-bg-m.webp" type="image/webp" media="(max-width: 480px)">
   	 
   <!-- 1. WebSite — общая информация о сайте -->
-	<script type="application/ld+json">
+	<script type="application/ld+json" nonce="abc1221jhgg3">
 		{
 			"@context": "https://schema.org",
 			"@type": "WebSite",
@@ -73,8 +78,8 @@
 			}
 		}
 	</script>
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-J41EZ7NN1M"></script>
-	<script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-J41EZ7NN1M" nonce="abc1221jhgg3"></script>
+	<script nonce="abc1221jhgg3">
 	  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
@@ -82,8 +87,8 @@
 		    'cookie_domain': 'none'
 	  });
 	</script>
-	<script data-goatcounter="https://kun.goatcounter.com/count" async src="./count.js"></script>
-	<script type="text/javascript">
+	<script data-goatcounter="https://kun.goatcounter.com/count" async src="./count.js" nonce="abc1221jhgg3"></script>
+	<script type="text/javascript" nonce="abc1221jhgg3">
     (function(m,e,t,r,i,k,a){
         m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
         m[i].l=1*new Date();
@@ -175,6 +180,6 @@
 	</div>
 </footer>
   </div> 
-  <script src="./js/script.js" defer></script>
+  <script src="./js/script.js" defer nonce="abc1221jhgg3"></script>
 </body>
 </html>
